@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover ;
+    background-image: url('../img/bg1.jpg');
+}
+.titlecontainer{
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+.title{
+font-size:  120px;
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+#login a button{
+    width:150px;
+    border-radius: 20px;
+    border: 1px solid #3b3b96;
+    background-color: #141318;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: #3636362b;
+    color: rgb(0, 0, 0);
+    font-family: inherit;
+    font-size: 105%;
+    width:250px;
+  }
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background: #3636362b;
+    color: rgb(19, 18, 18);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+button:hover {
+    background: #7c7c7c6b;
+  }
+.icon{
+    width:20px;
+    height:20px;
+}
+#courses{
+    display: flex;
+}
+.course{
+    height: 100px;
+    width: 250px;
+    background:rgb(231, 161, 161);
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.footercontainer{
+    width: 100%;
+    padding-top: 70px;
+}
+.footer{
+    width: 100%;
+}
+td{
+    width:19%;
+}
